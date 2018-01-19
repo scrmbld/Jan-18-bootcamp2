@@ -1,0 +1,18 @@
+.bar{
+	height:12vh;
+	background-color:burlywood;
+}
+.hero{
+	height:70vh;
+	background-color:#b63;
+}
+.hero-text{
+	border:2px solid black;
+	margin-top:5%;
+	height:20%;
+}
+.feature{
+	height:30vh;
+	background-color:#ccc;
+	border:1px solid black;
+}
