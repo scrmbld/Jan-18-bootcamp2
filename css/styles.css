@@ -70,15 +70,8 @@
     background-color: #8e44ad;
   }
 }
-.container-fluid{
-	background-color:rgba(0,0,0,0.5);
-}
 .white{
 	background-color:#ffffff;
-}
-.hero{
-	height:43vw;
-	
 }
 .no-pad{
 	padding:0px;
@@ -88,7 +81,7 @@
 	width:100%;
 }
 .back{
-	background:rgba(0,0,0,0.4);
+	background:rgba(0,0,0,0.6);
 	padding:0px;
 	width:100%;
 }
@@ -126,37 +119,102 @@
 	font-weight:100;
 }
 .grad{
-	background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5));
-	height:5vw;
+	height:13px;
+	border-bottom:1px solid black;
+	background-color:rgba(0,0,0,0.6);
+}
+.border{
+	border-bottom:1px solid black;
+	background-color:#659;
 }
 .wire{
 	height:45vh;
-	border:1px solid black;
-	background-color:#722;
+	padding-top:10vh;
+	border-bottom:1px solid black;
+	background-color:#5cb85c;
 }
 .no-height{
 	height:auto;
+	padding-top:0px;
+	border:none;
+	background:none;
 }
 h2.white{
 	text-align:center;
 }
 .white{
 	color:white;
-	background-color:#722;
+	background:none;
 	text-shadow:1px 1px rgba(0,0,0,0.2);
 }
-.img{
+a.white:visited{
+	text-decoration:none;
+	color:#fff;
+}
+a.white:hover{
+	text-decoration:none;
+	color:#333;
+}
+@media (max-width:991px) {
+	.sm{
+		display:none;
+	}
+	.bg{
+		display:block;
+	}
+}
+@media (min-width:991px) {
+	.sm{
+		display:block;
+	}
+	.bg{
+		display:none;
+	}
+}
+.img-container{
 	height:45vh;
-	background-color:green;
 	border:1px solid black;
+	padding:none;
+}
+.image{
+	width:100%;
+	height:100%;
 }
 .contact{
 	height:45vh;
-	background-color:#33c;
-	border:1px solid black;
+	background-color:#659;
+}
+.btn.btn-success{
+	margin-top:17vh;
+}
+@media (max-width:991px){
+	div.btn.btn-success{
+		margin-left:35%;
+		width:30%;
+		margin-top:15vh;
+		font-size:50px;
+	}
+	.btn h2.white{
+		font-size:40px;
+		margin-top:15px;
+		margin-bottom:15px;
+	}
+}
+h2.white{
+	margin-top:10px;
+	background:none;
+	margin-bottom:10px;
+}
+p.white{
+	background:none;
+	margin-top:0px;
+	margin-bottom:10px;
 }
 .foot{
-	background:#ff0;
+	background-color:#5cb85c;
 	height:15vh;
 	border:1px solid black;
+}
+.foot p{
+	color:#000;
 }
