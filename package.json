@@ -19,6 +19,7 @@
   "dependencies": {
     "bootstrap": "^3.3.7",
     "gulp": "^3.9.1",
-    "jquery": "^2.2.4"
+    "jquery": "^2.2.4",
+    "modernizr": "^3.5.0"
   }
 }
