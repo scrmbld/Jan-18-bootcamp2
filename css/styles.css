@@ -77,20 +77,9 @@
 .no-pad{
 	padding:0px;
 }
-.pad{
-	height:2vw;
-	width:100%;
-}
-.back{
-	background:rgba(0,0,0,0.6);
-	padding:0px;
-	width:100%;
-	height:92.3vh;
-	padding-top:31vh;
-}
 .hero{
 	background-image:url(../images/Hero.jpg);
-	height:92.3vh;
+	height:70vh;
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -105,7 +94,7 @@
 	font-weight:bold;
 	line-height:70px;
 	border-radius:15px;
-	text-shadow:1px 1px rgba(0,0,0,0.2);
+	text-shadow:3spx 3px 3px rgba(0,0,0,0.2);
 	margin:0px;
 	font-size:40px;
 
@@ -140,7 +129,7 @@ h2.white{
 .white{
 	color:white;
 	background:none;
-	text-shadow:1px 1px rgba(0,0,0,0.2);
+	text-shadow:3spx 3px 3px rgba(0,0,0,0.2);
 }
 a.white:visited{
 	text-decoration:none;
