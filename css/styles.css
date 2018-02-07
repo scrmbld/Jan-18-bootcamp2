@@ -243,6 +243,10 @@ h2.white{
 	background:none;
 	margin-bottom:10px;
 }
+.btn.btn-success h2.white{
+	margin-top:10px;
+	margin-bottom:10px;
+}
 p.white{
 	background:none;
 	margin-top:0px;
